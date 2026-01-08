@@ -2,7 +2,7 @@
 const LEADS_SHEET = "Leads";
 const AIRTABLE_BASE_ID = "appl6e4pwMTM3zmm2";
 const AIRTABLE_TABLE_ID = "tbl1hIorYHhwyyBsr"; 
-const AIRTABLE_API_KEY = "patKsYjjrENpbekTr.fb85e017c75e61b973b277744213e534b145e523fb2b7cdf24aa433de938032a";
+const AIRTABLE_API_KEY = "your_api_key";
 
 function syncLeadsByLastUpdated() {
   const ss = SpreadsheetApp.getActive();
